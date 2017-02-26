@@ -1,0 +1,32 @@
+<!DOCTYPE html>  
+<html ng-app="">    
+<head>  <!-- www.techstrikers.com -->  
+<title>My first AngularJS code</title>    
+<script SRC="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.js">    
+</script>    
+    
+</head>    
+<body bgcolor="#bnde45">  
+<fieldset>  
+<legend>AngularJS ToJSON Function</legend>  
+<script>   
+
+//Array object
+var mySource1 = [{name : 'Jimi', age : '30'},{name : 'Tom', age : '23'}]  
+var mySource3 = {address : '12-13/A12', phone : '111-111-1111'}  
+  
+document.write(angular.toJson(mySource1));  
+document.write("</br>");  
+document.write(angular.toJson(mySource3));  
+document.write("</br>");  
+  
+</script>  
+</fieldset>  
+</body>    
+</html> 
+
+
+output
+------
+{"name":"Jimi","age":"30"},{"name":"Tom","age":"23"}]
+{"address":"12-13/A12","phone":"111-111-1111"}
