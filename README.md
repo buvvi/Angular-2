@@ -1,8 +1,8 @@
 # Angular-2-
-Drag and Drop 
+ 
 
 
-HI Friends ,
+Hi Friends ,
 
 
 I have coded & tested the Drag and Drop simple example .
