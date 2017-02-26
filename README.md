@@ -5,9 +5,7 @@ Drag and Drop
 HI Friends ,
 
 
-I have tested the Drag and Drop sinple example .
-
-There is no need to change this code to run the same in your machine .
+I have coded & tested the Drag and Drop simple example .
 
 
 Basic Stuff like Node js installation must be in your machine .
