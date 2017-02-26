@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>ng2-drag-drop Demo</title>
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Angular 2 drag drop</a>
+    </div>
+    <ul class="nav navbar-nav hidden-xs">
+      <li><a href="#">Demo</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid" id="demo">
+  <my-app>Loading demo...</my-app>
+</div>
+
+<script src="https://unpkg.com/core-js@2.4.1/client/shim.min.js"></script>
+    <script src="https://unpkg.com/zone.js/dist/zone.js"></script>
+    <script src="https://unpkg.com/zone.js/dist/long-stack-trace-zone.js"></script>
+    <script src="https://unpkg.com/reflect-metadata@0.1.3/Reflect.js"></script>
+    <script src="https://unpkg.com/systemjs@0.19.31/dist/system.js"></script>
+
+<script src="config.js"></script>
+
+
+<script>
+  System.import('app').catch(function(err){ console.error(err); });
+</script>
+
+</body>
+</html>
